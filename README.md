@@ -31,3 +31,51 @@ This project is a Python-based script using Selenium to track the price of an Am
 6. The script will open the specified Amazon product page and track the price, printing the updated price to the terminal every 5 seconds.
 
 ---end---
+# --- start ---
+# README Section
+
+"""
+Python Job Scraper for TimesJobs
+================================
+
+This project is a Python-based web scraper designed to extract job listings from the TimesJobs website. 
+Using Selenium, the scraper automates the process of navigating the website, closing popups, and extracting 
+job details such as company name, required skills, and posting date. The extracted data is saved to a text 
+file (`job_listings.txt`) for easy access and analysis.
+
+Key Features:
+-------------
+1. Automates the process of navigating the TimesJobs website and closing popups.
+2. Extracts job details such as:
+   - Company Name
+   - Required Skills
+   - Posting Date
+3. Saves the extracted data to a text file (`job_listings.txt`) for further use.
+4. Handles dynamic web elements using Selenium's `WebDriverWait` and error handling.
+
+How to Run:
+-----------
+1. Ensure you have Python installed on your system.
+2. Install the required dependencies:
+   ```bash
+   pip install selenium
+   Download the appropriate version of ChromeDriver for your Chrome browser version from: https://chromedriver.chromium.org/downloads
+Update the cdp variable in the script with the path to your chromedriver.exe.
+Run the script:
+Check the job_listings.txt file for the extracted job details.
+Example Output:
+Company Name: ABC Technologies Skills Required: Python, Django, Flask Posted: Posted 3 days ago
+
+Company Name: XYZ Solutions Skills Required: Python, Machine Learning Posted: Posted 2 days ago
+
+Technologies Used:
+Python
+Selenium WebDriver
+ChromeDriver
+Purpose:
+This project was created to automate the process of job searching and provide a structured way to analyze job listings. It can be extended to include additional features, such as filtering jobs based on specific criteria or integrating with other platforms.
+
+"""
+
+--- end ---
+
